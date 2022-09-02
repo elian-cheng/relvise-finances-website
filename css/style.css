@@ -155,6 +155,9 @@ body {
   /* line-height: calc(24 / 14 * 100%) */
   font-weight: 600;
 }
+.menu__link:hover {
+  text-decoration: underline;
+}
 @media (max-width: 479px) {
   .menu__link {
     font-size: 18px;
@@ -519,6 +522,7 @@ body {
 }
 .about-us__video iframe {
   position: absolute;
+  border: none;
   width: 100%;
   height: 100%;
   top: 0;
